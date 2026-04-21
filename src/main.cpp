@@ -37,7 +37,7 @@ void loop() {
           // สั่ง Toggle Relay (ถ้าเปิดอยู่ให้ปิด ถ้าปิดอยู่ให้เปิด)
           digitalWrite(relays[i], !digitalRead(relays[i]));
         }
-        
+        // TEST
         lastStates[i] = currentState; // อัปเดตสถานะล่าสุด
       }
     }
